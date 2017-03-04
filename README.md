@@ -34,17 +34,17 @@ Finally, note that if the button flashes white for a long time and then flashes 
 - Under "Select Blueprint" - select "Create Blank Function".
 - Click "Next" to Configure Function
 - Under "Configure Function"
-    - Set Name to "awsIotTweet2"
+    - Set Name to "awsIotTweet"
     - Set Description to "Send a configurable tweet when the AWS IOT button is pressed"
     - Set Runtime to "Node.JS 4.3"
 - Code Entry Type: Upload a .ZIP file
 - Function Package: Click "Upload" button
-    - Select "iottweet.zip" from your hard drive
+    - Select "iotweet.zip" from your hard drive
 - Handler: tweet.handler
 - Role: Choose an existing role
 - Existing Role: lambda_basic_execution
 - Advanced Settings: Set Timeout to 0 min 30 sec
 - Click "Next"
 - Click "Create Function"
-- You should get the message: Congratulations! Your Lambda function "awsIotTweet2" has been successfully created. You can now click on the "Test" button to input a test event and test your function.
+- You should get the message: Congratulations! Your Lambda function "awsIotTweet" has been successfully created. You can now click on the "Test" button to input a test event and test your function.
 
